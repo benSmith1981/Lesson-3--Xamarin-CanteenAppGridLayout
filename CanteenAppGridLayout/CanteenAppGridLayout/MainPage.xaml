@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CanteenAppGridLayout.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="Fries" ClassId="Fries" Clicked="AddToKart" Text="Fries"  Grid.Column="0" Grid.Row="0" ></Button>
+            <Button x:Name="Apples" ClassId="Apples" Clicked="AddToKart" Text="Apples"  Grid.Column="1" Grid.Row="0" ></Button>
+            <Button x:Name="Curry" Clicked="AddToKart" Text="Curry"  Grid.Column="0" Grid.Row="1" ></Button>
+            <Button x:Name="Cheese" Clicked="AddToKart" Text="Cheese" Grid.Column="1" Grid.Row="1" ></Button>
+        </Grid>
+        <Label Text="Total" x:Name="total" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+    </StackLayout>
+
+</ContentPage>
