@@ -1,8 +1,8 @@
 # CanteenAppGridLayout
- Lesson 2 of Xamarin
+ Lesson 3 of Xamarin
 Create a new visual studio project called Canteen App, summary of this lesson: 
 
-We are going to create the ordering page of your app (will add more in later lessons) 
+We are going to create the ordering page of your app (this is the second page in the navigation we created last week, so you need to have done that first!) 
 
 You need a grid layout with buttons on each cell connected to a function or functions. Examples are here: Xamarin.Forms Grid - Xamarin | Microsoft Docs  
 
